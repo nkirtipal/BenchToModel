@@ -1,8 +1,12 @@
 # BenchToModel
 
-### From the Laboratory Bench ⟹ To Computational Models
+<div align="center">
+
+**From the Laboratory Bench ⟹ To Computational Models**
 
 *Exploring Machine Learning, Deep Learning, and Their Applications in Biology.*
+
+</div>
 
 ---
 ## Machine Learning
@@ -39,7 +43,11 @@
 ---
 ## Goal
 
-To connect machine learning and deep learning concepts to biological questions — one architecture at a time.
+<div align="center">
+
+### To connect machine learning and deep learning concepts to biological questions — one architecture at a time.
+
+</div>
 
 ---
 ## Author
