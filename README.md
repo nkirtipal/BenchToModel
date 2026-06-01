@@ -1,6 +1,8 @@
 # BenchToModel
 
-From the Laboratory Bench to Computational Models **⟹** Exploring Machine Learning, Deep Learning, and their Aplications in Biology.
+### From the Laboratory Bench ⟹ To Computational Models
+
+*Exploring Machine Learning, Deep Learning, and Their Applications in Biology.*
 
 ---
 ## Machine Learning
