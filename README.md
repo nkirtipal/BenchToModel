@@ -39,7 +39,7 @@
 ---
 ## Goal
 
-To build an intuitive, biology-oriented understanding of machine learning and deep learning methods — connecting computational concepts to biological questions, one architecture at a time.
+To connect machine learning and deep learning concepts to biological questions — one architecture at a time.
 
 ---
 ## Author
