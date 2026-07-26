@@ -1,12 +1,12 @@
-# Machine Learning
 <p align="center">
   <img src="./assets/ml-journey-banner.svg" alt="Machine Learning Journey Roadmap" width="900">
 </p>
 
-<h1 align="center">From the Laboratory Bench → Computational Models</h1>
+<h1 align="center">BenchToModel</h1>
 
 <p align="center">
-  <em>Exploring Machine Learning, Deep Learning, and AI for Biological Research.</em>
+  <em>From the Laboratory Bench → Computational Models</em><br>
+  Exploring Machine Learning, Deep Learning, and AI for Biological Research.
 </p>
 
 <p align="center">
@@ -16,71 +16,51 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
 
----
+## 👋 Welcome
 
-# 👋 Welcome
+This repository documents my journey from wet-lab biology into computational modeling through machine learning and deep learning.
 
-Welcome to the **Machine Learning** section of this repository.
+Rather than a polished course, it's a living collection of notes, notebooks, experiments, and projects that evolve alongside my understanding. The emphasis is on building intuition, writing reproducible code, and learning through hands-on experimentation.
 
-This directory documents my learning journey through machine learning, from fundamental concepts to practical implementations.
+> **It's a journey, not a race.** Keep learning, keep building.
 
-Here you'll find notes, notebooks, experiments, projects, and resources covering the core ideas behind machine learning and how they can be applied to real-world problems.
-
-The emphasis is on building intuition, understanding algorithms, writing clean and reproducible code, and learning through hands-on experimentation.
-
----
-
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 ```text
 BenchToModel/
 │
-├── 📁 Machine_Learning/
-├── 📁 Deep_Learning/
-├── 📁 Computational_Biology/
+├── Machine_Learning/        # Foundations, classical algorithms, evaluation
+├── Deep_Learning/           # Neural networks, CNNs, modern architectures
+├── Computational_Biology/   # Where ML/DL meets biological data
 │
 ├── LICENSE
 └── README.md
 ```
 
-Each section represents a different stage of my learning journey.
+📁 **[Machine_Learning](./Machine_Learning/)** — foundations, classical algorithms, feature engineering, model evaluation, and practical notebooks
 
-### 📁 [Machine_Learning](./Machine_Learning/)
+📁 **[Deep_Learning](./Deep_Learning/)** — neural networks, CNNs, modern architectures, and hands-on implementations
 
-Learning the foundations of machine learning, classical algorithms, feature engineering, model evaluation, practical notebooks, and real-world projects.
+📁 **[Computational_Biology](./Computational_Biology/)** — applying ML/DL to genomics, transcriptomics, bioimage analysis, and microbiome research
 
-### 📁 [Deep_Learning](./Deep_Learning/)
+Each folder has its own README, notebooks, and resources.
 
-Understanding neural networks, CNNs, modern deep learning architectures, and hands-on implementations.
-
-### 📁 [Computational_Biology](./Computational_Biology/)
-
-Applying machine learning and deep learning to biological data, including genomics, transcriptomics, bioimage analysis, microbiome research, and other computational biology applications.
-
----
-
-# 🧭 Learning Journey
-
-This repository is organized into three connected stages.
+## 🧭 Learning Journey
 
 ```text
-Laboratory Bench
-        │
-        ▼
-Machine Learning
-        │
-        ▼
-Deep Learning
-        │
-        ▼
-Computational Biology
+        Laboratory Bench
+               │
+      ┌────────┴────────┐
+      ▼                 ▼
+Machine Learning   Deep Learning
+      └────────┬────────┘
+               ▼
+      Computational Biology
 ```
 
-Each section has its own roadmap, notebooks, projects, and documentation.
+Machine learning and deep learning both feed into biological applications — the roadmap banner above shows the topic-by-topic progression in more detail.
 
----
-
-# 💡 Learning Philosophy
+## 💡 Learning Philosophy
 
 - 💻 **Learn by Building** — Theory becomes meaningful when applied through code.
 - 🧠 **Understand Before Optimizing** — Learn why an algorithm works before improving performance.
@@ -89,67 +69,32 @@ Each section has its own roadmap, notebooks, projects, and documentation.
 - 📚 **Read Research Papers** — Stay connected to developments beyond tutorials and courses.
 - ✨ **Write Clean Code** — Future-you is one of your collaborators.
 
----
+## 🎯 Current Focus
 
-# 🎯 Current Focus
+Machine learning fundamentals · Python for data science · Data preprocessing & feature engineering · Classical ML algorithms · Deep learning
 
-Currently exploring:
+## 🔬 Long-Term Vision
 
-- Machine Learning Fundamentals
-- Python for Data Science
-- Data Preprocessing & Feature Engineering
-- Classical Machine Learning Algorithms
-- Deep Learning
-- Explainable AI
-- AI Applications in Biology
+As this repository grows, it will evolve from learning notes into reproducible projects applying ML and DL to real biological questions:
 
----
+🧬 Bioinformatics · 🧫 Genomics & Transcriptomics · 🔬 Biomedical Imaging · 🦠 Microbiome Analysis · ❤️ Healthcare AI · 🤖 Explainable AI
 
-# 🔬 Long-Term Vision
-
-As this repository grows, it will gradually evolve from learning notes into reproducible projects applying machine learning and deep learning to real biological questions.
-
-Areas of interest include:
-
-- 🧬 Bioinformatics
-- 🧫 Genomics & Transcriptomics
-- 🔬 Biomedical Imaging
-- 🦠 Microbiome Analysis
-- ❤️ Healthcare AI
-- 🤖 Explainable Artificial Intelligence
-
----
-
-# 🚀 Getting Started
-
-Clone the repository:
+## 🚀 Getting Started
 
 ```bash
 git clone https://github.com/nkirtipal/BenchToModel.git
-
 cd BenchToModel
 ```
 
-Each directory contains its own README, notebooks, and learning resources.
+Dependencies vary between projects and are documented in their respective folders.
 
-Dependencies may differ between projects and will be documented inside their respective folders.
+## 🤝 Contributing
 
----
-
-# 🤝 Contributing
-
-This repository is intentionally a work in progress.
-
-If you find an error, have suggestions, or know useful resources that could improve the content, feel free to open an issue or submit a pull request.
-
-Constructive feedback is always welcome.
+This repository is intentionally a work in progress. If you spot an error, have suggestions, or know useful resources, feel free to open an issue or submit a pull request. Constructive feedback is always welcome.
 
 ---
 
 <p align="center">
-
-<b>Learning in public • Building in public • Improving every day.</b>
-
+<b>Learning in public • Building in public • Improving every day.</b><br><br>
 ⭐ If you're on a similar journey, feel free to fork this repository and build your own learning path.
-
 </p>
