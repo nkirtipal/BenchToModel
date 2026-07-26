@@ -1,6 +1,7 @@
-<h1 align="center">Machine Learning</h1>
 <p align="center">
-  <img src="./assets/ml-journey-banner.png" alt="Machine Learning Journey" width="100%">
+  <img src="./assets/ml-journey-banner.png"
+       alt="Machine Learning Journey"
+       width="100%">
 </p>
 
 <p align="center">
