@@ -1,7 +1,7 @@
-<h1 align="center">Machine Learning</h1>
+<h1 align="center">Computational Biology</h1>
 
 <p align="center">
-  <em>Foundations, classical algorithms, and hands-on practice.</em>
+  <em>Where machine learning meets biological data.</em>
 </p>
 
 <p align="center">
@@ -10,30 +10,37 @@
 
 ## 👋 About This Section
 
-This folder covers my work through core machine learning — the concepts, algorithms, and workflows that everything else builds on.
+This is where the ML and DL foundations from the other sections get applied to real biological questions.
 
-The focus is on understanding *why* methods work before reaching for them, and on writing code that's reproducible rather than just functional.
+The focus here is on learning notes and small experiments — understanding how biological data differs from typical ML datasets, and what that changes about preprocessing, model choice, and interpretation. Fully developed projects live in their own repositories (linked below).
 
-## 📚 Topics Covered
+## 🧬 Topics Covered
 
-- **Foundations** — what ML is, and how it differs from AI and deep learning
-- **Data Collection & EDA** — gathering data and exploring it before modeling
-- **Data Cleaning** — handling missing values, outliers, and inconsistencies
-- **Feature Engineering** — turning raw data into useful signal
-- **Supervised Learning** — regression, classification, and their trade-offs
-- **Unsupervised Learning** — clustering and dimensionality reduction
-- **Model Evaluation** — metrics, cross-validation, and avoiding overfitting
-- **Hyperparameter Tuning** — grid search, random search, and beyond
+- **Biological data types** — sequences, expression matrices, images, and their quirks
+- **Genomics & Transcriptomics** — working with sequencing and expression data
+- **Bioimage Analysis** — cells, tissues, and phenotype classification
+- **Microbiome Analysis** — compositional data and its challenges
+- **Explainable AI in Biology** — why interpretability matters more when the output informs a hypothesis
+- **Reproducibility** — pipelines, environments, and version control for biological analyses
+
+## ⚠️ What Makes Biological Data Different
+
+Notes on the recurring gotchas: high dimensionality with few samples, batch effects, class imbalance, compositional constraints, and the fact that a good AUC doesn't automatically mean a biologically meaningful model.
 
 ## 🛠️ Tools & Libraries
 
-`Python` · `NumPy` · `pandas` · `scikit-learn` · `Matplotlib` · `Seaborn` · `Jupyter`
+`Python` · `R` · `Biopython` · `scanpy` · `scikit-learn` · `PyTorch` · `Bioconductor`
 
-## 📝 Notes
+## 🔗 Related Projects
 
-Notebooks and notes are added as I work through each topic. This section is actively growing — some topics are more developed than others.
+Standalone repositories where these methods are applied in full:
+
+- [Bioimage_ML_Classification](https://github.com/nkirtipal/Bioimage_ML_Classification) — CNN-based bioimage classification with Explainable AI
+- [MultiModal_RNAseq_Workflow](https://github.com/nkirtipal/MultiModal_RNAseq_Workflow) — bulk and single-cell RNA-seq integration
+- [NikSeqRecur](https://github.com/nkirtipal/NikSeqRecur) — DNA sequence analysis for repeat detection
+- [NikOmicsDogma](https://github.com/nkirtipal/NikOmicsDogma) — multiomics relationships and systems biology visualization
 
 ## 🔗 Related Sections
 
+- 📁 [Machine_Learning](../Machine_Learning/) — foundations and classical algorithms
 - 📁 [Deep_Learning](../Deep_Learning/) — neural networks and modern architectures
-- 📁 [Computational_Biology](../Computational_Biology/) — applying these methods to biological data
