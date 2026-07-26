@@ -1,100 +1,39 @@
-<p align="center">
-  <img src="./assets/ml-journey-banner.svg" alt="Machine Learning Journey Roadmap" width="900">
-</p>
-
-<h1 align="center">BenchToModel</h1>
+<h1 align="center">Machine Learning</h1>
 
 <p align="center">
-  <em>From the Laboratory Bench → Computational Models</em><br>
-  Exploring Machine Learning, Deep Learning, and AI for Biological Research.
+  <em>Foundations, classical algorithms, and hands-on practice.</em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue" alt="Python">
-  <img src="https://img.shields.io/badge/Status-Learning-success" alt="Status">
-  <img src="https://img.shields.io/badge/Focus-Computational%20Biology-orange" alt="Focus">
-  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
+  <a href="../">← Back to BenchToModel</a>
 </p>
 
-## 👋 Welcome
+## 👋 About This Section
 
-This repository documents my journey from wet-lab biology into computational modeling through machine learning and deep learning.
+This folder covers my work through core machine learning — the concepts, algorithms, and workflows that everything else builds on.
 
-Rather than a polished course, it's a living collection of notes, notebooks, experiments, and projects that evolve alongside my understanding. The emphasis is on building intuition, writing reproducible code, and learning through hands-on experimentation.
+The focus is on understanding *why* methods work before reaching for them, and on writing code that's reproducible rather than just functional.
 
-> **It's a journey, not a race.** Keep learning, keep building.
+## 📚 Topics Covered
 
-## 📂 Repository Structure
+- **Foundations** — what ML is, and how it differs from AI and deep learning
+- **Data Collection & EDA** — gathering data and exploring it before modeling
+- **Data Cleaning** — handling missing values, outliers, and inconsistencies
+- **Feature Engineering** — turning raw data into useful signal
+- **Supervised Learning** — regression, classification, and their trade-offs
+- **Unsupervised Learning** — clustering and dimensionality reduction
+- **Model Evaluation** — metrics, cross-validation, and avoiding overfitting
+- **Hyperparameter Tuning** — grid search, random search, and beyond
 
-```text
-BenchToModel/
-│
-├── Machine_Learning/        # Foundations, classical algorithms, evaluation
-├── Deep_Learning/           # Neural networks, CNNs, modern architectures
-├── Computational_Biology/   # Where ML/DL meets biological data
-│
-├── LICENSE
-└── README.md
-```
+## 🛠️ Tools & Libraries
 
-📁 **[Machine_Learning](./Machine_Learning/)** — foundations, classical algorithms, feature engineering, model evaluation, and practical notebooks
+`Python` · `NumPy` · `pandas` · `scikit-learn` · `Matplotlib` · `Seaborn` · `Jupyter`
 
-📁 **[Deep_Learning](./Deep_Learning/)** — neural networks, CNNs, modern architectures, and hands-on implementations
+## 📝 Notes
 
-📁 **[Computational_Biology](./Computational_Biology/)** — applying ML/DL to genomics, transcriptomics, bioimage analysis, and microbiome research
+Notebooks and notes are added as I work through each topic. This section is actively growing — some topics are more developed than others.
 
-Each folder has its own README, notebooks, and resources.
+## 🔗 Related Sections
 
-## 🧭 Learning Journey
-
-```text
-        Laboratory Bench
-               │
-      ┌────────┴────────┐
-      ▼                 ▼
-Machine Learning   Deep Learning
-      └────────┬────────┘
-               ▼
-      Computational Biology
-```
-
-Machine learning and deep learning both feed into biological applications — the roadmap banner above shows the topic-by-topic progression in more detail.
-
-## 💡 Learning Philosophy
-
-- 💻 **Learn by Building** — Theory becomes meaningful when applied through code.
-- 🧠 **Understand Before Optimizing** — Learn why an algorithm works before improving performance.
-- 📊 **Visualize Everything** — Good visualizations often reveal patterns that metrics alone miss.
-- 🧪 **Experiment Fearlessly** — Failed experiments are still valuable learning opportunities.
-- 📚 **Read Research Papers** — Stay connected to developments beyond tutorials and courses.
-- ✨ **Write Clean Code** — Future-you is one of your collaborators.
-
-## 🎯 Current Focus
-
-Machine learning fundamentals · Python for data science · Data preprocessing & feature engineering · Classical ML algorithms · Deep learning
-
-## 🔬 Long-Term Vision
-
-As this repository grows, it will evolve from learning notes into reproducible projects applying ML and DL to real biological questions:
-
-🧬 Bioinformatics · 🧫 Genomics & Transcriptomics · 🔬 Biomedical Imaging · 🦠 Microbiome Analysis · ❤️ Healthcare AI · 🤖 Explainable AI
-
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/nkirtipal/BenchToModel.git
-cd BenchToModel
-```
-
-Dependencies vary between projects and are documented in their respective folders.
-
-## 🤝 Contributing
-
-This repository is intentionally a work in progress. If you spot an error, have suggestions, or know useful resources, feel free to open an issue or submit a pull request. Constructive feedback is always welcome.
-
----
-
-<p align="center">
-<b>Learning in public • Building in public • Improving every day.</b><br><br>
-⭐ If you're on a similar journey, feel free to fork this repository and build your own learning path.
-</p>
+- 📁 [Deep_Learning](../Deep_Learning/) — neural networks and modern architectures
+- 📁 [Computational_Biology](../Computational_Biology/) — applying these methods to biological data
